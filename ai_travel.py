@@ -11,9 +11,8 @@ import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.output_parsers import StrOutputParser
-import os
-API_KEY = os.getenv("API_KEY")
 
+API_KEY = "AIzaSyBkxnuIbA8tw7Q8zIdB_ZQqyhdTrWrsr2Q"
 # Streamlit UI
 st.title("AI-Powered Travel Planner")
 st.write("Enter your travel details to get estimated travel costs for various travel modes including cab, train, bus, and flights.")
