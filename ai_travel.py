@@ -7,12 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1p0Noai7k_1RBL8lp7Coz9JyGtSfx4JdQ
 """
 
-pip install streamlit
-
-pip install google-generativeai
-
-pip install langchain_google_genai
-
 import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
